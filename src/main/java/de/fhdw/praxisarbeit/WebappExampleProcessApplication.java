@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.camunda.bpm.getstarted.loanapproval;
+package de.fhdw.praxisarbeit;
 
 import org.camunda.bpm.engine.RuntimeService;
 import org.camunda.bpm.spring.boot.starter.annotation.EnableProcessApplication;
@@ -37,7 +37,7 @@ public class WebappExampleProcessApplication {
 
   @EventListener
   private void processPostDeploy(PostDeployEvent event) {
-    runtimeService.startProcessInstanceByKey("loanApproval");
+    runtimeService.startProcessInstanceByKey("Praxisarbeit_druchfuehren");
   }
 
 }

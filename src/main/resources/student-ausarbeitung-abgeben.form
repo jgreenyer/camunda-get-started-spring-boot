@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Ausarbeitung abgeben",
+      "type": "text",
+      "id": "Field_1qlibks"
+    },
+    {
+      "label": "Thema",
+      "type": "textfield",
+      "id": "Field_0fwxvbj",
+      "key": "thema"
+    },
+    {
+      "label": "Arbeit fertig",
+      "type": "checkbox",
+      "id": "Field_1sqo4vz",
+      "key": "fertig"
+    }
+  ],
+  "type": "default",
+  "id": "abgeben"
+}

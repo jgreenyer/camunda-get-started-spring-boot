@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Anforderungen definieren\nBeschreiben Sie Ihre Anforderungen:",
+      "type": "text",
+      "id": "Field_1aru549"
+    },
+    {
+      "label": "Anforderung 1",
+      "type": "textfield",
+      "id": "Field_12li0ym",
+      "key": "prof_anf1"
+    },
+    {
+      "label": "Anforderung 2",
+      "type": "textfield",
+      "id": "Field_01e6vov",
+      "key": "prof_anf2"
+    },
+    {
+      "label": "Anforderung 3",
+      "type": "textfield",
+      "id": "Field_0dfgz5e",
+      "key": "prof_anf3"
+    }
+  ],
+  "type": "default",
+  "id": "Form_19gh6u2"
+}

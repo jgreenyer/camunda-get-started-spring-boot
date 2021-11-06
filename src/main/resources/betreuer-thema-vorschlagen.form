@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Themen vorschlagen\nTragen Sie ein  oder mehere Themen ein:",
+      "type": "text",
+      "id": "Field_04hxn5r"
+    },
+    {
+      "label": "Thema 1",
+      "type": "textfield",
+      "id": "Field_1y2ngrd",
+      "key": "thema1"
+    },
+    {
+      "label": "Thema 2",
+      "type": "textfield",
+      "id": "Field_0euwabz",
+      "key": "thema2"
+    },
+    {
+      "label": "Thema 3",
+      "type": "textfield",
+      "id": "Field_1b3g5uy",
+      "key": "thema3"
+    }
+  ],
+  "type": "default",
+  "id": "betreuer-thema-vorschlagen"
+}

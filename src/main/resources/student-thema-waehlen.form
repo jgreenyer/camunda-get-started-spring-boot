@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Thema wählen\nBitte wählen Sie Ihr Thema aus:",
+      "type": "text",
+      "id": "Field_1id8gnj"
+    },
+    {
+      "values": [
+        {
+          "label": "Thema 1",
+          "value": "1"
+        },
+        {
+          "label": "Thema 2",
+          "value": "2"
+        },
+        {
+          "label": "Thema 3",
+          "value": "3"
+        }
+      ],
+      "label": "Select",
+      "type": "select",
+      "id": "Field_0mtcamg",
+      "key": "gewaehltesthema"
+    },
+    {
+      "text": "## Vorgeschlagene Themen:",
+      "type": "text",
+      "id": "Field_04hxn5r"
+    },
+    {
+      "label": "Thema 1",
+      "type": "textfield",
+      "id": "Field_1y2ngrd",
+      "key": "thema1"
+    },
+    {
+      "label": "Thema 2",
+      "type": "textfield",
+      "id": "Field_0euwabz",
+      "key": "thema2"
+    },
+    {
+      "label": "Thema 3",
+      "type": "textfield",
+      "id": "Field_1b3g5uy",
+      "key": "thema3"
+    }
+  ],
+  "type": "default",
+  "id": "student-thema-waehlen"
+}

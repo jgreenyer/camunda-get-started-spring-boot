@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Note Einsehen",
+      "type": "text",
+      "id": "Field_0m2zq4m"
+    },
+    {
+      "label": "Ihre Note",
+      "type": "textfield",
+      "id": "Field_0bzxcp1",
+      "key": "note"
+    },
+    {
+      "label": "Gutachten",
+      "type": "textfield",
+      "id": "Field_1l11a0c",
+      "key": "gutachten"
+    }
+  ],
+  "type": "default",
+  "id": "noteeinsehen"
+}
