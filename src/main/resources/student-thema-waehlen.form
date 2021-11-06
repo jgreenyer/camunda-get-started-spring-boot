@@ -19,6 +19,10 @@
         {
           "label": "Thema 3",
           "value": "3"
+        },
+        {
+          "label": "Keines der Themen",
+          "value": "0"
         }
       ],
       "label": "Select",

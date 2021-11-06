@@ -28,13 +28,13 @@
     <bpmn:sequenceFlow id="Flow_1kdzl8l" sourceRef="Gateway_1lebgfl" targetRef="Activity_19yvlpm" />
     <bpmn:sequenceFlow id="Flow_0ts04y0" sourceRef="Gateway_1lebgfl" targetRef="Activity_10ajdm4" />
     <bpmn:sequenceFlow id="Flow_1fead2p" name="geeignetes Thema gefunden" sourceRef="Gateway_14sn7m4" targetRef="Gateway_0jecbwt">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${gewaehltesthema != ""}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${gewaehltesthema != 0}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_0mzbbgd" sourceRef="Activity_10ajdm4" targetRef="Gateway_0jecbwt" />
     <bpmn:sequenceFlow id="Flow_1vlesy9" sourceRef="Activity_19yvlpm" targetRef="Activity_1adp7l3" />
     <bpmn:sequenceFlow id="Flow_0ha02oj" sourceRef="Activity_1adp7l3" targetRef="Gateway_14sn7m4" />
     <bpmn:sequenceFlow id="Flow_127v6lg" name="kein geeignetes Thema gefunden" sourceRef="Gateway_14sn7m4" targetRef="Activity_19yvlpm">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${gewaehltesthema == ""}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${gewaehltesthema == 0}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:startEvent id="Praxisarbeit_steht_an" name="Praxisarbeit steht an">
       <bpmn:outgoing>Flow_09uadaq</bpmn:outgoing>
